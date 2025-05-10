@@ -33,5 +33,24 @@ body{
   position: relative;
   width: 66rem;
   height: 45rem;
-  background: yellowgreen;
+  background: red;
+}
+
+.cover{
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  background: var(--cover-color);
+  box-shadow: var(--box-shadow);
+  border-top-left-radius: .6rem;
+  border-bottom-left-radius: .6rem;
+  transform-origin: right;
+}
+
+.cover.cover-right{
+z-index: -1;
+}
+
+.cover.cover-right.turn{
+  transform: rotateY('180deg');
 }

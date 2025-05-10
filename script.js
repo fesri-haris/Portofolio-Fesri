@@ -10,3 +10,4 @@
 //opening animation (cover right animation)
 //opening animation (page left or profile page animation)
 //opening animation (all page right animation)
+
